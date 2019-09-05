@@ -1,4 +1,4 @@
-# nlp_process
+## nlp research process
 ### Relation extraction(关系抽取)
 - dataset:
   - https://nlp.stanford.edu/projects/tacred/
@@ -23,6 +23,12 @@
 ## Transfer learning
 - dataset
   - https://github.com/brightmart/roberta_zh
-## info
+## overall info
+### process
 - https://github.com/sebastianruder/NLP-progress
-- 
+### task
+- semeval
+  - http://alt.qcri.org/semeval2019/index.php?id=tasks
+  - http://alt.qcri.org/semeval2018/
+### code
+## tools
