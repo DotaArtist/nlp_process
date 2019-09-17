@@ -22,6 +22,8 @@
   - https://github.com/terrifyzhao/text_matching
 ### Named entity recognition(命名实体识别)
 ### Text classification(文本分类)
+- other:
+  - https://github.com/ChenChengKuan/awesome-text-generation
 ### Sentiment Analysis(情感分析)
 - dataset:
   - [sst](http://ai.stanford.edu/~amaas/data/sentiment/)
