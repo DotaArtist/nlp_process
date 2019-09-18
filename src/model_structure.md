@@ -1,7 +1,13 @@
 ### model
+- autoencoder
+  - Vanilla autoencoder
+  - Multilayer autoencoder
+  - Convolutional autoencoder
+  - Regularized autoencoder
+    - denoising autoencoder
+    - sparse autoencoder
 - sgnet
 - xlnet
 - GPT
 - ELMO
 - crcnn
-  - https://shomy.top/2018/02/28/relation-extraction/
