@@ -11,3 +11,11 @@
 - GPT
 - ELMO
 - crcnn
+- memory network
+- attention
+  - structure att
+  - global/local att
+  - soft/hard att
+- gan
+- seq2seq
+
