@@ -12,10 +12,15 @@
 - ELMO
 - crcnn
 - memory network
+  - 
+  - e2emn
+  - dmn
 - attention
   - structure att
   - global/local att
   - soft/hard att
 - gan
+  - seqgan
+  - wgan
 - seq2seq
-
+- tree lstm
