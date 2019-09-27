@@ -12,7 +12,6 @@
 - ELMO
 - crcnn
 - memory network
-  - 
   - e2emn
   - dmn
 - attention
@@ -23,4 +22,9 @@
   - seqgan
   - wgan
 - seq2seq
+  - transformer
 - tree lstm
+  - 
+- nlg
+  - MaliGAN，RankGAN，DP-GAN和LeakGAN
+ 

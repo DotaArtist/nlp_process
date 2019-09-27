@@ -1,4 +1,5 @@
 ## nlp research process
+### Opinion extraction(观点抽取)
 ### Relation extraction(关系抽取)
 - dataset:
   - https://nlp.stanford.edu/projects/tacred/
@@ -35,6 +36,8 @@
   - http://openkg.cn/dataset/symptom-in-chinese
 ### Entity linking(实体链接)
 ### Dependency parsing(依存句法分析)
+- asd
+
 ### Textual entailment(文本蕴含)
 - dataset:
   - [MNLI(Multi-Genre Natural Language Inference)](http://www.nyu.edu/projects/bowman/multinli/)
