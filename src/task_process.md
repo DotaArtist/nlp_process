@@ -36,6 +36,7 @@
   - http://openkg.cn/dataset/symptom-in-chinese
 ### Entity linking(实体链接)
 ### Dependency parsing(依存句法分析)
+- CFG
 - Penn Treebank + HPSG Parser
 
 ### Textual entailment(文本蕴含)
