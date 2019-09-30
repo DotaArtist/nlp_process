@@ -36,8 +36,8 @@
   - http://openkg.cn/dataset/symptom-in-chinese
 ### Entity linking(实体链接)
 ### Dependency parsing(依存句法分析)
-- CFG
-- Penn Treebank + HPSG Parser
+- other:
+  - http://nlpprogress.com/english/dependency_parsing.html
 
 ### Textual entailment(文本蕴含)
 - dataset:
@@ -57,5 +57,6 @@
 - https://cloud.tencent.com/developer/article/1117928
 ### data
 - http://www.xuwei.io/2018/11/30/文本分类-glue数据集介绍/
+- https://www.jiqizhixin.com/articles/062402
 ### tools
 - [ner](https://rasahq.github.io/rasa-nlu-trainer/)

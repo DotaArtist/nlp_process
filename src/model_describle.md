@@ -23,3 +23,14 @@ DP-GAN
 LeakGAN
 
 ```
+
+### Dependency parsing
+- http://nlpprogress.com/english/dependency_parsing.html
+```
+# process
+- CFG
+- Penn Treebank + HPSG Parser
+- Penn Treebank tree :Head rules
+- GNN
+
+```

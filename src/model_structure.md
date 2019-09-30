@@ -27,4 +27,6 @@
   - 
 - nlg
   - MaliGAN，RankGAN，DP-GAN和LeakGAN
+- gnn
+  - diffpool
  
