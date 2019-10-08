@@ -11,7 +11,7 @@ Ranking Loss：输入句子，正确标签，错误标签
 PCNN: position encodong + cnn
 APCNN : pcnn + attention
 ```
-### Text Generation
+### text Generation
 - 
 ```
 # process
@@ -24,13 +24,34 @@ LeakGAN
 
 ```
 
-### Dependency parsing
+### dependency parsing
 - http://nlpprogress.com/english/dependency_parsing.html
 ```
 # process
-- CFG
+- CFG 上下文无关语法。终结符/非终结符/生成式
 - Penn Treebank + HPSG Parser
 - Penn Treebank tree :Head rules
 - GNN
+- 常见的34中依存句法 百度API-34种
+```
 
+### sentence dependency parsing
+```
+- 语义依存分析
+```
+
+### seq2seq
+```
+Teacher Forcing  训练时decoder的输入替换为真实输入，1.加快收敛速度;2.防止prior time steps error;
+
+```
+
+### short text similarity
+```
+
+```
+
+### semantic role labeling
+```
+以句子为单位，分析句子的谓词-论元结构  格语法
 ```

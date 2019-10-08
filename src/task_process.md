@@ -1,6 +1,15 @@
 ## nlp research process
-### Opinion extraction(观点抽取)
-### Relation extraction(关系抽取)
+
+
+### semantic role labeling(语义角色标注)
+- dataset:
+  - FrameNet
+  - PropBank
+  - Chinese Proposition Bank(CPB)
+
+### opinion extraction(观点抽取)
+
+### relation extraction(关系抽取)
 - dataset:
   - https://nlp.stanford.edu/projects/tacred/
 - code:
@@ -13,7 +22,7 @@
   - CRCNN(Classifying Relations by Ranking with CNN)
   - PCNN(Piece Wise CNN)
 
-### Semantic textual similarity(语义文本相似)
+### semantic textual similarity(语义文本相似)
 - dataset:
   - [MRPC(Microsoft Research Paraphrase Corpus)](https://www.microsoft.com/en-us/download/details.aspx?id=52398)
   - [QQP(Quora Question Pairs)](https://www.quora.com/q/quoradata/First-Quora-Dataset-Release-Question-Pairs)
@@ -21,42 +30,58 @@
   - https://dc.cloud.alipay.com/index?click_from=MAIL&_bdType=acafbbbiahdahhadhiih#/topic/intro?id=3
 - code:
   - https://github.com/terrifyzhao/text_matching
-### Named entity recognition(命名实体识别)
-### Text classification(文本分类)
+
+### named entity recognition(命名实体识别)
+
+### text classification(文本分类)
 - other:
   - https://github.com/ChenChengKuan/awesome-text-generation
-### Sentiment Analysis(情感分析)
+
+### sentiment Analysis(情感分析)
 - dataset:
   - [sst](http://ai.stanford.edu/~amaas/data/sentiment/)
-### Machine translation(机器翻译)
-### Text generation(文本生成)
+
+### machine translation(机器翻译)
+
+### text generation(文本生成)
 -
-### Knowledge graph(知识图谱)
+
+### knowledge graph(知识图谱)
 - dataset:
   - http://openkg.cn/dataset/symptom-in-chinese
-### Entity linking(实体链接)
-### Dependency parsing(依存句法分析)
+
+### entity linking(实体链接)
+
+### dependency parsing(依存句法分析)
 - other:
   - http://nlpprogress.com/english/dependency_parsing.html
 
-### Textual entailment(文本蕴含)
+### textual entailment(文本蕴含)
 - dataset:
   - [MNLI(Multi-Genre Natural Language Inference)](http://www.nyu.edu/projects/bowman/multinli/)
-### Question answering(问答)
+
+### question answering(问答)
 - dataset:
   - https://rajpurkar.github.io/SQuAD-explorer/
-## Transfer learning
+
+## transfer learning
 - dataset:
   - https://github.com/brightmart/roberta_zh
+
 ## overall info
+
+
 ### process
 - https://github.com/sebastianruder/NLP-progress
+
 ### task
 - semeval
 - ccks task
 - https://cloud.tencent.com/developer/article/1117928
+
 ### data
 - http://www.xuwei.io/2018/11/30/文本分类-glue数据集介绍/
 - https://www.jiqizhixin.com/articles/062402
+
 ### tools
 - [ner](https://rasahq.github.io/rasa-nlu-trainer/)
