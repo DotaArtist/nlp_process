@@ -84,4 +84,5 @@
 - https://www.jiqizhixin.com/articles/062402
 
 ### tools
-- [ner](https://rasahq.github.io/rasa-nlu-trainer/)
+- [ner for label](https://rasahq.github.io/rasa-nlu-trainer/)
+- [tmVar for api](https://www.ncbi.nlm.nih.gov/research/bionlp/Tools/tmvar/)

@@ -32,18 +32,36 @@ LeakGAN
 - Penn Treebank + HPSG Parser
 - Penn Treebank tree :Head rules
 - GNN
-- 常见的34中依存句法 百度API-34种
+- 常见的依存句法 https://blog.csdn.net/glory1234work2115/article/details/54906343
+
+PCFG Parser stanford corenlp demo: 
+(ROOT
+  (NP
+    (NP (NR 中华) (NN 人民) (NN 共和国))
+    (PRN (PU ()
+      (NP (NR 中国))
+      (PU ))
+      (VP
+        (ADVP (AD 很))
+        (VP (VA 强大))
+	  )
+	)
+  )
+)
+
+Shift-Reduce Parser
+
 ```
 
 ### sentence dependency parsing
 ```
-- 语义依存分析
+语义依存分析
 ```
 
 ### seq2seq
 ```
-Teacher Forcing  训练时decoder的输入替换为真实输入，1.加快收敛速度;2.防止prior time steps error;
-
+teacher forcing  train时decoder的输入替换为真实输入，1.加快收敛速度;2.防止prior time steps error;  
+beam searching  test时，在k时刻取词表L中top_k作为这个时刻的输出，下一个时刻在k*l 中取top_k，依次循环。（剪枝的深度搜索策略）
 ```
 
 ### short text similarity
