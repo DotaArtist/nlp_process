@@ -73,3 +73,15 @@ beam searching  test时，在k时刻取词表L中top_k作为这个时刻的输�
 ```
 以句子为单位，分析句子的谓词-论元结构  格语法
 ```
+
+### VAE
+```
+x ---> 两个encoder分别计算var/mean ---> 采样normal distribution ---> 采样变换reparameterization --- > decorder
+loss = log(p) + kl(q|p)  # reparameterization 和 kl（噪声） 相互对抗
+reparameterization trick
+```
+
+### WGAN
+```
+
+```
