@@ -67,6 +67,8 @@ beam searching  test时，在k时刻取词表L中top_k作为这个时刻的输�
 ### short text similarity
 ```
 
+drcn: siamese network (embedding + feature + interaction + ae) + fc
+
 ```
 
 ### semantic role labeling
