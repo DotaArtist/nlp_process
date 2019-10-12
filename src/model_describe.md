@@ -100,11 +100,10 @@ CVAE 条件变分自编码
 encoder Y类别均值，采样变换加入z
 ```
 
-
 ### WGAN
 ```
 EM距离（Wasserstein）
-gradient penalty 
+weight clipping vs gradient penalty 
 
 self.Y = tf.placeholder(tf.float32, shape=[None, *self.image_size], name='output')
 self.z = tf.placeholder(tf.float32, shape=[None, self.flags.z_dim], name='latent_vector')
