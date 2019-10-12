@@ -27,5 +27,7 @@ SGD + L1 稀疏性解决的不够好
 TG 梯度截断，每间隔k步，在Wt绝对值小于a时，梯度减一个常数。
 FOBOS 在梯度下降的基础上，添加附近权重查找和正则化。（梯度精确性高）
 RDA 正则对偶平均。梯度积分中值，加正则，加辅助正则。（稀疏性好）
-FTRL FOBOS+RDA。W(t+1) = argmin[w](梯度积分中值+L1+L2+|W-Wt|^2)
+FTRL FOBOS+RDA。W(t+1) = argmin[w](梯度积分中值*W+L1+L2+|W-Wt|^2)
+
+https://zhuanlan.zhihu.com/p/55135954
 ```

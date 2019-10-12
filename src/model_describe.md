@@ -23,6 +23,10 @@ DP-GAN
 LeakGAN
 
 ```
+### LSTM CRF
+```
+
+```
 
 ### dependency parsing
 - http://nlpprogress.com/english/dependency_parsing.html
@@ -78,12 +82,42 @@ drcn: siamese network (embedding + feature + interaction + ae) + fc
 
 ### VAE
 ```
-x ---> 两个encoder分别计算var/mean ---> 采样normal distribution ---> 采样变换reparameterization --- > decorder
+x ---> 两个encoder分别计算var/mean ---> 采样normal distribution ---> 采样变换reparameterization得到z --- > decorder
 loss = log(p) + kl(q|p)  # reparameterization 和 kl（噪声） 相互对抗
 reparameterization trick
+
+1.计算x的均值和方差；
+2.正态分布采样；
+3.变换到原分布上，采样变换 reparameterization；
+
+变分和贝叶斯理论
+两个encoder的作用：
+1.均值+高斯噪声
+2.方差+高斯噪声
+loss = p*log(q) + (mean^0.5 - sigma + (exp(0.5 * sigma) - 1))
+
+CVAE 条件变分自编码
+encoder Y类别均值，采样变换加入z
 ```
+
 
 ### WGAN
 ```
+EM距离（Wasserstein）
+gradient penalty 
+
+self.Y = tf.placeholder(tf.float32, shape=[None, *self.image_size], name='output')
+self.z = tf.placeholder(tf.float32, shape=[None, self.flags.z_dim], name='latent_vector')
+
+self.g_samples = self.generator(self.z)
+_, d_logit_real = self.discriminator(self.Y)
+_, d_logit_fake = self.discriminator(self.g_samples, is_reuse=True)
+
+# discriminator loss
+self.d_loss = tf.reduce_mean(d_logit_real) - tf.reduce_mean(d_logit_fake)
+# generator loss
+self.g_loss = -tf.reduce_mean(d_logit_fake)
+
+优化 g_loss
 
 ```
