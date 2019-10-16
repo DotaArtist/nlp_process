@@ -31,3 +31,13 @@ FTRL FOBOS+RDA。W(t+1) = argmin[w](梯度积分中值*W+L1+L2+|W-Wt|^2)
 
 https://zhuanlan.zhihu.com/p/55135954
 ```
+
+### 分布问题
+```
+二项分布
+正态分布
+卡方分布
+指数分布
+泊松分布
+
+```

@@ -21,11 +21,13 @@ MaliGAN
 RankGAN
 DP-GAN
 LeakGAN
-
 ```
+
 ### LSTM CRF
 ```
+softmax vs crf:前者是n个k分类问题，后者是1个n^k分类问题；
 
+https://kexue.fm/archives/5542
 ```
 
 ### dependency parsing
@@ -54,7 +56,6 @@ PCFG Parser stanford corenlp demo:
 )
 
 Shift-Reduce Parser
-
 ```
 
 ### sentence dependency parsing
@@ -70,9 +71,8 @@ beam searching  test时，在k时刻取词表L中top_k作为这个时刻的输�
 
 ### short text similarity
 ```
-
-drcn: siamese network (embedding + feature + interaction + ae) + fc
-
+esim: siamese network (embedding + bilstm_a + attention(sentence_1, sentence_2) + interaction(f1,f2) + max/min + fc)
+drcn: siamese network (embedding + feature + interaction(p,q) + ae) + fc
 ```
 
 ### semantic role labeling
@@ -117,6 +117,5 @@ self.d_loss = tf.reduce_mean(d_logit_real) - tf.reduce_mean(d_logit_fake)
 # generator loss
 self.g_loss = -tf.reduce_mean(d_logit_fake)
 
-优化 g_loss
-
+同时优化 g_loss, d_loss
 ```
