@@ -6,6 +6,9 @@
   - Regularized autoencoder
     - denoising autoencoder
     - sparse autoencoder
+      ```
+      训练不易收敛，逐层训练可以缓解。
+      ```
 - sgnet
 - xlnet
 - GPT
@@ -29,4 +32,6 @@
   - MaliGAN，RankGAN，DP-GAN和LeakGAN
 - gnn
   - diffpool
- 
+- text cluster
+  - atomic clusters
+  - 
