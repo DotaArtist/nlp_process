@@ -1,8 +1,16 @@
 ## nlp process
+##### public
+- [conference](./src/conference_summary.md)
+```
+总结顶会和期刊的地址和举办时间。
+```
+
 - [task](./src/task_process.md)
 ```
 总结近年的一些评测任务的地址，数据集以及他人分享的代码。
 ```
+
+##### model
 
 - [model_structure](./src/model_structure.md)
 ```
@@ -14,11 +22,7 @@
 总结模型结构的细节和tricks。
 ```
 
-- [conference](./src/conference_summary.md)
-```
-总结顶会和期刊的地址和举办时间。
-```
-
+#### private
 - [reading_list](./src/reading_list.md)
 ```
 计划放一些扫的文章列表和简介。
