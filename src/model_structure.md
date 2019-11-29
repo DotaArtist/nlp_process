@@ -1,5 +1,6 @@
 ### model
 - autoencoder
+  - Stacked AutoEncoder
   - Vanilla autoencoder
   - Multilayer autoencoder
   - Convolutional autoencoder
