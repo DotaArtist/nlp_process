@@ -31,7 +31,7 @@
 - code:
   - https://github.com/terrifyzhao/text_matching
 
-### named entity recognition(命名实体识别)
+### named entity recognition(命名实体识别)/Slot Filling(槽填充)
 
 ### text classification(文本分类)
 - other:

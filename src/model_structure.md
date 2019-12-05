@@ -28,11 +28,12 @@
 - seq2seq
   - transformer
 - tree lstm
-  - 
+  - todo
 - nlg
   - MaliGAN，RankGAN，DP-GAN和LeakGAN
 - gnn
   - diffpool
 - text cluster
   - atomic clusters
-  - 
+- capsnet
+  - a
