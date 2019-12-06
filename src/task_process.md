@@ -64,9 +64,13 @@
 - dataset:
   - https://rajpurkar.github.io/SQuAD-explorer/
 
-## transfer learning
+## transfer learning(迁移学习)
 - dataset:
   - https://github.com/brightmart/roberta_zh
+
+## graph neural network(图网络)
+- other
+  - https://github.com/rusty1s/pytorch_geometric
 
 ## overall info
 
