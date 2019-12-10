@@ -22,6 +22,10 @@
   - CRCNN(Classifying Relations by Ranking with CNN)
   - PCNN(Piece Wise CNN)
 
+### reading comprehension(阅读理解)
+- dataset:
+  - http://www.qizhexie.com/data/RACE_leaderboard.html
+
 ### semantic textual similarity(语义文本相似)
 - dataset:
   - [MRPC(Microsoft Research Paraphrase Corpus)](https://www.microsoft.com/en-us/download/details.aspx?id=52398)
