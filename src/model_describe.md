@@ -1,5 +1,10 @@
 ### adversarial attack and defence
 ```
+增强系统稳定性
+
+1.对抗训练，加入对抗样本，增加模型鲁棒性；
+2.对抗样本检测器；
+
 攻击：
 1.边界探测攻击
 2.生成模型（gan）
@@ -11,7 +16,15 @@
 3.对抗检测（分类器识别是否为攻击）
 
 常见场景：
-1.人脸比对(1:1, 1:N)
+1.人脸比对(1:1 阈值问题, 1:N 样本和top2更近) 
+
+FGSM(快速梯度符号法)
+GAN（攻击上限更高）
+IPGD（攻击更稳定和可浮现）
+
+对抗攻击与防御的评估方式：
+
+targeted attack vs untargeted attack
 
 其他参考：
 - https://juejin.im/post/5cff1b5ae51d4556bc066f45
@@ -31,6 +44,7 @@ Ranking Loss：输入句子，正确标签，错误标签
 PCNN: position encodong + cnn
 APCNN : pcnn + attention
 ```
+
 ### text Generation
 - 
 ```
