@@ -1,3 +1,23 @@
+### adversarial attack and defence
+```
+攻击：
+1.边界探测攻击
+2.生成模型（gan）
+3.梯度攻击
+
+防御：
+1.数据增广（范围和强度覆盖不全）
+2.梯度正则
+3.对抗检测（分类器识别是否为攻击）
+
+常见场景：
+1.人脸比对(1:1, 1:N)
+
+其他参考：
+- https://juejin.im/post/5cff1b5ae51d4556bc066f45
+```
+
+
 ### relation extract
 - https://shomy.top/2018/02/28/relation-extraction/
 ```
