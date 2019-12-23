@@ -2,7 +2,7 @@
 ```
 增强系统稳定性
 
-1.对抗训练，加入对抗样本，增加模型鲁棒性；
+1.对抗训练，加入对抗样本，增加模型鲁棒性；(缺点 分类边界会变大，分类能力变差)
 2.对抗样本检测器；
 
 攻击：
@@ -28,6 +28,7 @@ targeted attack vs untargeted attack
 
 其他参考：
 - https://juejin.im/post/5cff1b5ae51d4556bc066f45
+- [图像对抗攻击演示](https://distill.pub/2018/building-blocks/)
 ```
 
 
