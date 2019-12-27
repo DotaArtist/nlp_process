@@ -9,6 +9,10 @@
 
 ### opinion extraction(观点抽取)
 
+### adversarial examples(对抗样本)
+
+### event extraction(事件抽取)
+
 ### relation extraction(关系抽取)
 - dataset:
   - https://nlp.stanford.edu/projects/tacred/
