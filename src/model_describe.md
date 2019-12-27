@@ -43,6 +43,7 @@ Position Indicator：
 Ranking Loss：输入句子，正确标签，错误标签
 
 PCNN: position encodong + cnn
+PCNN: Piece Wise CNN(实体分n段池化，每个卷积核对应n个池化结果)
 APCNN : pcnn + attention
 ```
 
