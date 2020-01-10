@@ -155,3 +155,25 @@ self.g_loss = -tf.reduce_mean(d_logit_fake)
 
 同时优化 g_loss, d_loss
 ```
+
+### Pointer-Generator
+```
+
+```
+
+### automatic document summarization
+```
+抽取式评价指标：Edmundson 匹配句子数量。重合率p = 匹配句子/专家文摘句子
+
+摘要式评价指标: ROUGE 
+ROUGE-N(N=1、2、3、4，分别代表基于1元词到4元词的模型)，ROUGE-L，ROUGE-S, ROUGE-W，ROUGE-SU
+
+```
+
+### gpt/gpt-2
+```
+训练方式是无监督的，预测下个单词。
+特定任务效果差，例如分类，抽取，问答。
+通用领域，机器翻译，摘要，文本生成器，代词消解。
+
+```
