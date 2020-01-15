@@ -3,8 +3,12 @@
   ```
   维基百科结构化数据项目，包含关系和性质。
   ```
-- 
 
+- [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
+   ```
+   斯坦福问答数据集
+   ```
+  
 ### chinese dataset
 - 维基百科中文wiki2019zh
 - 百科类问答baike2018qa
