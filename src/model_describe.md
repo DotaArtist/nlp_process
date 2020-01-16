@@ -1,3 +1,13 @@
+### cnn 参数计算
+```
+卷积层参数： (width * heigth * input_depth * filter_num) + filter_num 
+```
+
+### lstm 参数计算
+```
+ 
+```
+
 ### adversarial attack and defence
 ```
 增强系统稳定性
