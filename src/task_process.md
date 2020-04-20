@@ -26,7 +26,7 @@
   - CRCNN(Classifying Relations by Ranking with CNN)
   - PCNN(Piece Wise CNN)
 
-### reading comprehension(阅读理解)
+### machine reading comprehension(阅读理解)
 - dataset:
   - http://www.qizhexie.com/data/RACE_leaderboard.html
 
@@ -99,3 +99,13 @@
 - [ner for label](https://rasahq.github.io/rasa-nlu-trainer/)
 - [tmVar for api](https://www.ncbi.nlm.nih.gov/research/bionlp/Tools/tmvar/)
 - [re for label](http://brat.nlplab.org/installation.html)
+
+### 中文评测任务
+- 讯飞杯
+  - 举办了三届。阅读理解。
+- 法研杯
+  - 文本匹配，实体抽取，阅读理解。
+- ccks(全国知识图谱与语义计算大会)
+  - 关系抽取，实体抽取。
+- 看山杯
+  - 举办了三届。
