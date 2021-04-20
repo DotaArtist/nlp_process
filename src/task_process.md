@@ -1,3 +1,21 @@
+## ccks2021
+- 新冠知识图谱构建与问答
+- 面向中文短文本的实体链指
+- 面向中文电子病历的医疗实体及事件抽取
+- 面向金融领域的小样本跨类迁移事件抽取
+- 面向金融领域的篇章级事件主题与要素抽取
+- 基于本体的金融知识图谱自动化构建技术评测
+- 基于标题的大规模商品实体检索
+- 面向试验鉴定的命名实体识别
+
+## biendata
+- 2021海华AI挑战赛·中文阅读理解
+```
+双向注意力流（BiDAF）
+R-net
+融合网络（FusionNet）
+```
+
 ## nlp research process
 ### automatic document summarization(自动摘要)
 
@@ -27,6 +45,14 @@
   - PCNN(Piece Wise CNN)
 
 ### machine reading comprehension(阅读理解)
+- 1.完形填空类型（cloze）
+- 2.多项选择（Multiple Choice）
+  - 海华2021
+- 3.Span Prdiction
+- 4.摘要问答
+  - SQUAD
+  - crmc
+- 5.自由问答
 - dataset:
   - http://www.qizhexie.com/data/RACE_leaderboard.html
 
